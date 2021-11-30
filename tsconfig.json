@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es6", // or a more recent ecmascript version
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node"
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["src/tests/**/*.spec.ts", "node_modules"]
+}

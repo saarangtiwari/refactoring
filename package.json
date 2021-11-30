@@ -1,0 +1,30 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/index.js",
+    "compile": "node_modules/typescript/bin/tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saarang1995/refactoring.git"
+  },
+  "author": "Saarang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saarang1995/refactoring/issues"
+  },
+  "homepage": "https://github.com/saarang1995/refactoring#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.2"
+  }
+}
